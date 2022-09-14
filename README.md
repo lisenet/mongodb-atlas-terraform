@@ -64,6 +64,8 @@ Retrieve Mongo Compass connection string:
 terraform output mongo_compass_connection_string
 ```
 
+![MongoDB Atlas Cluster](./images/mongodb-atlas-homelab-cluster.png)
+
 ## References
 
 https://registry.terraform.io/providers/mongodb/mongodbatlas/latest/docs
