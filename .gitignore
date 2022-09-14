@@ -1,0 +1,8 @@
+.terraform.lock.hcl
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*plan_*
+**/out/*
+.DS_Store
+setenv.sh
