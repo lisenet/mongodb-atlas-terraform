@@ -15,7 +15,8 @@ sudo apt install -y curl
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 sudo apt update
-sudo apt install -y terraform
+sudo apt install -y terraform=1.3.4
+sudo apt-mark hold terraform
 ```
 
 On a RHEL-based system:
