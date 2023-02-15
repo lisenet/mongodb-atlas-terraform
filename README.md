@@ -4,6 +4,8 @@ These resources should be built with Terraform: https://terraform.io
 
 Create and manage a free tier Mongo Atlas M0 cluster with Terraform.
 
+Note: while you can create an M0 free cluster using the Clusters API resource, you cannot modify an M0 free cluster using the Clusters API resource.
+
 ## Pre-requisites
 
 ### Install Terraform
