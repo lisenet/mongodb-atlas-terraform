@@ -4,12 +4,6 @@ variable "aws_region" {
   default     = "eu-west-2"
 }
 
-variable "aws_profile" {
-  description = "AWS profile to use to provision resources"
-  type        = string
-  default     = "terraform_homelab"
-}
-
 variable "local_prefix" {
   description = "Prefix to use for resources"
   type        = string

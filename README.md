@@ -4,6 +4,8 @@ These resources should be built with Terraform: https://terraform.io
 
 Create and manage a free tier Mongo Atlas M0 cluster with Terraform.
 
+Note: while you can create an M0 free cluster using the Clusters API resource, you cannot modify an M0 free cluster using the Clusters API resource.
+
 ## Pre-requisites
 
 ### Install Terraform
@@ -15,7 +17,8 @@ sudo apt install -y curl
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 sudo apt update
-sudo apt install -y terraform
+sudo apt install -y terraform=1.3.4
+sudo apt-mark hold terraform
 ```
 
 On a RHEL-based system:
